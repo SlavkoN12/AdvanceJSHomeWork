@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NBA Players API</title>
+</head>
+
+<body>
+
+    <div>
+        <button id="getAPI">GET Player API info</button>
+        <br>
+        <br>
+        <button id="fetchAPI">FETCH Player API info</button>
+        <br>
+        <br>
+        <table border="1" id="table" style="display: none;">
+            <header>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Height</td>
+                    <td>Position</td>
+                    <td>Points per game</td>
+                    <td>Team</td>
+                </tr>
+            </header>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
